@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
     HeaderComponent
     FooterComponent,
     MenuComponent
+    ContentComponent
   ],
   imports: [
     BrowserModule
